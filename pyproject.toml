@@ -9,6 +9,8 @@ python = "^3.10"
 Django = "^4"
 django-extensions = "^3.1.5"
 ipython="*"
+Faker = "^13.3.1"
+tqdm = "^4.63.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.1"
