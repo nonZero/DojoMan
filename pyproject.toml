@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "dojoman"
+version = "0.0.1"
+description = ""
+authors = []
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^4"
+django-extensions = "^3.1.5"
+ipython="*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+black = "^22.1.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
